@@ -1,0 +1,211 @@
+@import url('https://fonts.cdnfonts.com/css/norse');
+
+
+body{
+    font-family: 'Norse', sans-serif;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 98vh;
+    width: 35vw;
+    min-width: 390px;
+    background-image: url(https://images.unsplash.com/photo-1668367274956-f17df8a5ba19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+    
+    
+}
+
+
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 160px;
+    width: 100%;
+    background-color: rgb(0 0 0 / 50%);
+    
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17px;
+    height: 20px;
+    width: 100%;
+    color: #b5a9a9;
+    font-weight: 300;
+    margin-top: auto;
+    flex-shrink:1;
+}
+
+.input_form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 98vh;
+    width: 65vw;
+    flex-wrap: wrap;
+    min-width: 580px;
+    
+}
+
+.intro{
+   height:25%;
+   flex-shrink: 1;
+   flex-grow:1;
+   background-color:#f8f6f6;
+   font-weight: 900;
+   font-size: 24px;
+   display: flex;
+   align-items: center;
+}
+
+.intro > p{
+    margin-left:70px;
+}
+
+.form{
+    height:42%;
+    flex-shrink: 1;
+    flex-grow:1;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.row1{
+    display: flex;
+    font-family: 'Norse', sans-serif;
+    margin-top: 20px;
+}
+
+.row2{
+    display: flex;
+    font-family: 'Norse', sans-serif;
+    margin-top: 10px;
+}
+
+h1{
+    margin-left: 70px;
+}
+
+.label1{
+    margin-left: 70px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #707070;
+}
+.label2{
+    margin-left: 213px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #707070;
+}
+.label4{
+    margin-left: 272px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #707070;
+}
+
+.label5{
+    margin-left: 222px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #707070;
+}
+
+.input1{
+    margin-left: 70px;
+    width: 244px;
+    height: 35px;
+    font-family: 'Norse', sans-serif;
+    padding-left: 16px;
+    font-size: 24px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.input2{
+    margin-left: 61px;
+    width: 244px;
+    height: 35px;
+    font-family: 'Norse', sans-serif;
+    padding-left: 16px;
+    font-size: 24px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.form{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.buttons{
+    height: 30%;
+    flex-shrink: 1;
+    flex-grow:1;
+     background-color: #f8f6f6;
+}
+
+.buttons > button{
+    padding:10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #596D48;
+    font-size: 24px;
+    margin-left:70px;
+    margin-top:30px;
+    width: 240px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.buttons > p{
+    font-size: 16px;
+    margin-left:70px;
+    margin-top:30px;
+    font-family: 'Norse', sans-serif;
+}Hamza
+
+.buttons > p > a{
+    text-decoration: none;
+    color:#596D48;
+}
+
+#first_name:focus{
+   background-color: rgb(213, 220, 218);
+}
+#last_name:focus{
+    background-color: rgb(213, 220, 218);
+ }
+
+#email1:focus{
+    background-color: rgb(213, 220, 218);
+}
+
+#phone:focus{
+    background-color: rgb(213, 220, 218);
+}
+
+#password:focus{
+    background-color: rgb(213, 220, 218);
+}
+
+#password2:focus{
+    background-color: rgb(213, 220, 218);
+}

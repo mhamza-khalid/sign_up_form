@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Photo by Dalila Moreira on Unsplash-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Snooker Tour</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/norse" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main_container">   <!--sidebar plus form container--> 
+
+        <div class="sidebar">   <!--Sidebar with logo and background image-->
+
+            <div class="logo">
+                <img  src="download.png" class="image">
+            </div>    <!--Holds logo for WST-->
+            <footer class="footer">
+                Photo Credits: Photo by Dalila Moreira on Unsplash
+            </footer>  <!--Credits to orignal owners-->
+        
+        </div> 
+        
+        <div class="input_form">     <!--Sign up form-->
+            
+            <div class="intro">
+                <p>Are you ready to <em>cue the action</em>.<br>
+                Do you have what it takes to become a master?</p>
+            </div>
+            <div class="form">              <!--sign up form-->
+               
+                <form id="myForm">
+                 <h1>Lets do this!</h1>
+                
+                 <div class="row1">
+                 <label for="first_name" class="label1" >FIRST NAME:</label>
+                 <label for="last_name"  class="label2">LAST NAME:</label>
+                 </div>
+
+                 <div class="row2">
+                 <input type="text" id="first_name" name="first_name" placeholder="Jane" class="input1" required>
+                 <input type="text" id="last_name" name="last_name" placeholder="Citizen"
+                 class="input2">
+                 </div>
+                
+                 <div class="row1">
+                    <label for="email1" class="label1" >EMAIL:</label>
+                    <label for="phone"  class="label4">PHONE NUMBER:</label>
+                </div>
+   
+                <div class="row2">
+                    <input type="email" id="email1" name="email" placeholder="xyz@domain.com" class="input1" required>
+                    <input type="tel" id="phone" name="phone" placeholder="0123456789" pattern="[0-9]{10}" maxlength="10" minlength="10"
+                    class="input2">
+                </div>
+        
+                <div class="row1">
+                    <label for="password" class="label1">PASSWORD:</label>
+                    <label for="password2"  class="label5">CONFIRM PASSWORD:</label>
+                </div>
+   
+                <div class="row2">
+                    <input type="password" id="password" name="password1"  class="input1" required>
+                    <input type="password" id="password2" name="rePassword" 
+                    class="input2" required>
+                </div>
+
+                
+                </form>
+            
+            </div>
+            
+            <div class="buttons">
+            <button type="submit" form="myForm">Create Account!</button>     <!--Submit button-->
+            <p class="para">Already have an account? <a href="#">Log in</a></p>
+            </div>
+           
+
+        </div>   
+    </div>
+</body>
+</html>
